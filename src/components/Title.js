@@ -1,16 +1,12 @@
-import React from 'react'
+import React from 'react';
 
-function Title({title,subtitle}) {
+const Title = ({ title, subtitle }) => {
   return (
     <div>
-        <h1>
-            {title}
-        </h1>
-        <p>
-            {subtitle}
-        </p>
+      <h1>{title}</h1>
+      <p>{subtitle}</p>
     </div>
-  )
-}
+  );
+};
 
-export default Title
+export default Title;

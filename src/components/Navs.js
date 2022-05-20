@@ -1,16 +1,16 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 const LINKS = [
-  { to: "/", text: "Home" },
-  { to: "/starred", text: "Starred" },
+  { to: '/', text: 'Home' },
+  { to: '/starred', text: 'Starred' },
 ];
 
-function Navs() {
+const Navs = () => {
   return (
     <div>
       <ul>
-        {LINKS.map((item) => (
+        {LINKS.map(item => (
           <li key={item.to}>
             <Link to={item.to}>{item.text}</Link>
           </li>
@@ -18,6 +18,6 @@ function Navs() {
       </ul>
     </div>
   );
-}
+};
 
 export default Navs;
