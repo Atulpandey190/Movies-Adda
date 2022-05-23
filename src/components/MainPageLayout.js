@@ -1,7 +1,7 @@
 import React from 'react';
 import Navs from './Navs';
 import Title from './Title';
-
+import Footer from './Footer'
 const MainPageLayout = ({ children }) => {
   return (
     <div>
@@ -12,6 +12,7 @@ const MainPageLayout = ({ children }) => {
       <Navs />
 
       {children}
+      <Footer></Footer>
     </div>
   );
 };
