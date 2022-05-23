@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Movies-Adda/static/css/main.b2586571.css",
+    "main.js": "/Movies-Adda/static/js/main.93ea7683.js",
+    "static/js/787.7c42db31.chunk.js": "/Movies-Adda/static/js/787.7c42db31.chunk.js",
+    "index.html": "/Movies-Adda/index.html",
+    "main.b2586571.css.map": "/Movies-Adda/static/css/main.b2586571.css.map",
+    "main.93ea7683.js.map": "/Movies-Adda/static/js/main.93ea7683.js.map",
+    "787.7c42db31.chunk.js.map": "/Movies-Adda/static/js/787.7c42db31.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b2586571.css",
+    "static/js/main.93ea7683.js"
+  ]
+}
